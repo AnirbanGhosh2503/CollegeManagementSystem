@@ -9,13 +9,9 @@
 <body>
     <?php include_once("header.php");?>
     <?php include_once("sidebar.php");?>
-    <div class="container">
-       
-
-        <main class="content">
-            <h1>Welcome to the College Management System</h1>
-            <p>This is a dummy body content. Replace this with your actual content.</p>
-        </main>
+    <div class="content">
+        <h1>Welcome to the College Management System</h1>
+        <p>This is a dummy body content. Replace this with your actual content.</p>
     </div>
     <?php include_once("footer.php");?>
 </body>
