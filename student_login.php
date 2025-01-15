@@ -19,8 +19,8 @@
 
     body {
       font-family: Arial, sans-serif;
-      background-color:red;
-      display: flex;
+      /* background-color:red;
+      display: flex; */
       justify-content: center;
       align-items: center;
       height: 100vh;
@@ -94,7 +94,7 @@
   </style>
 </head>
 <body>
-  <div class="login-panel">
+  <div class="login-panel content">
     <div class="icon">
       <i class="fas fa-user-lock"></i>
     </div>

@@ -101,56 +101,59 @@
 </head>
 <?php include_once("sidebar.php");?>
 <body>
-  <!-- Dashboard Title -->
-  <h1 class="dashboard-title">LOgin Panel</h1>
+  <div class="content">
 
-  <!-- Dashboard Panels -->
-  <div class="panel-container">
-    <!-- Panel 1 -->
-    <div class="panel bg-info">
-      <div class="icon"><i class="fas fa-user-md"></i></div>
-       <h3>STAFF </h3>
-      <p></p>
-      <a href="staff_regi.php">Click Here To LOGIN <i class="fas fa-angle-double-right"></i></a>
-    </div>
-
-    <!-- Panel 2 -->
-    <div class="panel bg-success">
-      <div class="icon"><i class="fas fa-wheelchair"></i></div>
-    <h3>HOD</h3>
-      <p> </p>
-      <a href="hod_login.php">Click Here To LOGIN  <i class="fas fa-angle-double-right"></i></a>
-    </div>
-
-    <!-- Panel 3 -->
-    <div class="panel bg-warning">
-      <div class="icon"><i class="fas fa-handshake"></i></div>
-      <h2>ADMINISTRATIVE OFFICER</h2>
-      <p></p>
-      <a href="ao_login.php">Click Here To LOGIN   <i class="fas fa-angle-double-right"></i></a>
-    </div>
-
-    <!-- Panel 4 -->
-    <div class="panel bg-danger">
-      <div class="icon"><i class="fas fa-file-alt"></i></div>
-      <h3>PIC</h3>
-      <p></p>
-      <a href="pic_login.php">Click Here To LOGIN  <i class="fas fa-angle-double-right"></i></a>
-    </div>
-
-
-    <div class="panel bg-danger">
-      <div class="icon"><i class="fas fa-file-alt"></i></div>
-      <h3>ACCOUNT OFFICER</h3>
-      <p></p>
-      <a href="#">Click Here To LOGIN  <i class="fas fa-angle-double-right"></i></a>
-    </div>
-    
-  </div>
-
+    <!-- Dashboard Title -->
+    <h1 class="dashboard-title">LOgin Panel</h1>
   
-
-</body>
+    <!-- Dashboard Panels -->
+    <div class="panel-container">
+      <!-- Panel 1 -->
+      <div class="panel bg-info">
+        <div class="icon"><i class="fas fa-user-md"></i></div>
+         <h3>STAFF </h3>
+        <p></p>
+        <a href="staff_regi.php">Click Here To LOGIN <i class="fas fa-angle-double-right"></i></a>
+      </div>
+  
+      <!-- Panel 2 -->
+      <div class="panel bg-success">
+        <div class="icon"><i class="fas fa-wheelchair"></i></div>
+      <h3>HOD</h3>
+        <p> </p>
+        <a href="hod_login.php">Click Here To LOGIN  <i class="fas fa-angle-double-right"></i></a>
+      </div>
+  
+      <!-- Panel 3 -->
+      <div class="panel bg-warning">
+        <div class="icon"><i class="fas fa-handshake"></i></div>
+        <h2>ADMINISTRATIVE OFFICER</h2>
+        <p></p>
+        <a href="ao_login.php">Click Here To LOGIN   <i class="fas fa-angle-double-right"></i></a>
+      </div>
+  
+      <!-- Panel 4 -->
+      <div class="panel bg-danger">
+        <div class="icon"><i class="fas fa-file-alt"></i></div>
+        <h3>PIC</h3>
+        <p></p>
+        <a href="pic_login.php">Click Here To LOGIN  <i class="fas fa-angle-double-right"></i></a>
+      </div>
+  
+  
+      <div class="panel bg-danger">
+        <div class="icon"><i class="fas fa-file-alt"></i></div>
+        <h3>ACCOUNT OFFICER</h3>
+        <p></p>
+        <a href="#">Click Here To LOGIN  <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      
+    </div>
+  
+    
+  
+  </div>
+  </body>
 
 </html>
 <?php include_once("footer.php");?>
