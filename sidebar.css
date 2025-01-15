@@ -20,7 +20,7 @@
     transform: translate(-50%, -50%);
     color: white; /* Adjust text color for better visibility */
     text-align: center;
-    background-color: darkslategrey;
+    /* background-color: darkslategrey; */
     font-size: 30px;
     border-radius: 10px 100px / 120px;
     /* Add other styles as needed */

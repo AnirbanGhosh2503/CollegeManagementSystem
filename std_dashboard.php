@@ -1,5 +1,5 @@
 <?php include_once("header.php");?>
-<?php include_once("sidebar.php");?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -19,19 +19,21 @@
 
         .content {
             padding: 20px;
+            background-color: transparent;
             /* margin-left: 250px; Adjust based on sidebar width */
         }
 
         .dashboard-title {
-            font-size: 32px;
-            margin-bottom: 20px;
-            color: #007bff;
+            font-size: 64px;
+            margin-bottom: 35px;
+            color:  black;
         }
 
         .dashboard-cards {
             display: flex;
             gap: 30px;
             flex-wrap: wrap;
+            margin-left: 70px;
         }
 
         .card {
@@ -52,7 +54,7 @@
         .card h3 {
             margin-bottom: 10px;
             font-size: 24px;
-            color: #007bff;
+            color:black;
         }
 
         .card p {
@@ -104,4 +106,59 @@
     </div>
     <?php include_once("footer.php");?>
 </body>
+</html>
+<!-- <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    /> -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="sidebar.css">
+  <body>
+    <div class="main_box">
+      <input type="checkbox" id="check" />
+      <div class="btn_one">
+        <label for="check">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+      </div>
+
+      <div class="sidebar_menu">
+        <div class="logo">
+          <a href="#">CMS</a>
+        </div>
+
+        <div class="btn_two">
+          <label for="check" style="color: grey">
+            <i class="fa-solid fa-xmark"></i>
+          </label>
+        </div>
+
+        <div class="menu">
+          <ul>
+            <li>
+              <i class="fa-solid fa-image"></i>
+              <a href="#">Apply for hostel</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              <a href="#">Check Application status, Payment and Room</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="social_media">
+          <ul>
+            <a href="#"><i class="fa-brands fa-facebook"></i></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
